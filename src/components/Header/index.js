@@ -5,7 +5,7 @@ import React from 'react'
 const Header =()=>(
     <Wrapper>
         <Content>
-           <Head><h1>DECAmovies</h1></Head>
+           <Head>DECAmovies</Head>
            <TMDBLogoImg src={TMDBLogo} alt ="Tmdb-logo"/>
         </Content>
     </Wrapper>

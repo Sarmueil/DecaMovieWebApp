@@ -9,7 +9,6 @@ import NotFound from './components/NotFound'
 
 const App = () => (
   <Router>
-    <Header />
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/:movieId" element={<Movie />} />

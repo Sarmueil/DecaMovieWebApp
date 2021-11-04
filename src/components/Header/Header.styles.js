@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-  background: #0C6980;
+  background: transparent;
   padding: 0 20px;
 `;
 
@@ -15,8 +15,10 @@ export const Content = styled.div`
 `;
 
 export const Head = styled.div`
-  width: 200px;
-
+  font-size: 2rem;
+  padding:1rem;
+  color:white;
+  border:5px dashed white;
   @media screen and (max-width: 500px) {
     width: 150px;
   }

@@ -1,4 +1,4 @@
-import react from 'react'
+import React from 'react'
 import API from '../../API'
 //config settings
 import { POSTER_SIZE, BACKDROP_SIZE, IMAGE_BASE_URL } from '../../config'
